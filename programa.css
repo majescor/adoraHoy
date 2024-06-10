@@ -1,0 +1,34 @@
+body {
+    width: auto;
+ 
+    background-color: #11122b;
+    display:flex;
+    justify-content: center;
+
+}
+.programa-wrapper {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.fecha-servicio {
+    font-size: 2em;
+    color: #cea123;
+    text-align: center;
+}
+
+.cancion {
+    font-size: 1.5em;
+    text-align: center;
+    color:#cbcbcb;
+}
+
+.cancion:nth-child(5) {
+
+    margin-top: 20px;
+}
