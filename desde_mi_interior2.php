@@ -12,7 +12,7 @@
 <div class="cancion_wrapper">
 
     <?php
-        $fp = fopen("<canciones/cuan_grande_es_dios.txt", "r");
+        $fp = fopen("canciones/desde_mi_interior.txt", "r");
         while (!feof($fp)){
             
             $linea = fgets($fp);
